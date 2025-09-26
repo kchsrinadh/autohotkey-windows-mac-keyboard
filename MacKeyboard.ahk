@@ -7,10 +7,10 @@
 ; ^ = CTRL
 ; + = SHIFT
 ; # = WIN
-#InstallKeybdHook
+InstallKeybdHook()
 #SingleInstance Force
 SetTitleMatchMode(2)
-SendMode Input      ; ← This is correct WITHOUT quotes in v2
+SendMode("Input")
 ; --------------------------------------------------------------
 ; Mac-like screenshots in Windows (Win = CMD on Mac kb)
 ; --------------------------------------------------------------
@@ -87,7 +87,7 @@ LWin & Tab::
 !-::  Send("–")      ; Alt+- -> en dash
 !8::  Send("{")      ; Alt+8 -> {
 !9::  Send("}")      ; Alt+9 -> }
-!=::  Send("±")      ; Alt+= -> ± (changed from !+::)
+!=::  Send("±")      ; Alt+= -> ±
 !r::  Send("®")      ; Alt+R -> ®
 !7::  Send("|")      ; Alt+7 -> pipe |
 +!7:: Send("\")      ; Shift+Alt+7 -> backslash \
