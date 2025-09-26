@@ -8,6 +8,6 @@ If it's not working for applications running with admin permissions, it might be
 Installation
 ------------
 
-- Install [AutoHotkey](https://www.autohotkey.com/) 
+- Install v2 [AutoHotkey](https://www.autohotkey.com/)
 - Run the `MacKeyboard.ahk` file
 - Put the `MacKeyboard.ahk` file or a shortcut to the file in your Autostart folder to run it automatically on startup.
